@@ -9,3 +9,10 @@ function getComputerChoice (choice){
 
 }
 console.log(getComputerChoice ("Rock"))
+
+//A function playing a single round of the game
+function firstRound (playerSelection, computerSelection){
+    return "You loose, Paper beats Rock"
+    var lowerCase = playerSelection.toLowerCase() //converting user selection to lowercase
+}
+console.log(firstRound ("Paper,Rock"))
