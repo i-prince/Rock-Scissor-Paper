@@ -10,9 +10,18 @@ function getComputerChoice (choice){
 }
 console.log(getComputerChoice ("Rock"))
 
+//defining the selections
+const playerSelection = "Paper";
+const computerSelection = getComputerChoice
+
 //A function playing a single round of the game
 function firstRound (playerSelection, computerSelection){
-    return "You loose, Paper beats Rock"
     var lowerCase = playerSelection.toLowerCase() //converting user selection to lowercase
 }
-console.log(firstRound ("Paper,Rock"))
+
+console.log(firstRound (playerSelection, computerSelection));
+
+//looping the firstRound to create the game
+/*function game(firstRound){
+    prompt("what is your choice?", "hello user!")
+}*/
